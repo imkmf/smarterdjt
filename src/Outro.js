@@ -35,7 +35,7 @@ const HigherThanAverage = ( { score } ) => (
   </div>
 )
 
-const Outro = ({ score }) => {
+const Outro = ({ score, tryAgain }) => {
   let comp
   if (score < 90) {
     comp = <LowerThanAverage score={score} />
@@ -75,6 +75,10 @@ const Outro = ({ score }) => {
 
       <p class="f5 f4-m f3-l lh-copy measure mt0">
         Psst - are IQ tests a good indicator of intelligence? <a class="dim" href="https://www.scientificamerican.com/article/rational-and-irrational-thought-the-thinking-that-iq-tests-miss/">Not</a> <a class="dim" href="http://www.independent.co.uk/news/science/iq-tests-are-fundamentally-flawed-and-using-them-alone-to-measure-intelligence-is-a-fallacy-study-8425911.html">really</a>.
+      </p>
+
+      <p>
+        <Button text="Try again?" action={tryAgain} />
       </p>
 
       <p class="f6 f5-m f4-l lh-copy measure mt0 gray">

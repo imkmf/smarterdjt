@@ -95,7 +95,7 @@ const questions = {
     gif: "https://media.giphy.com/media/l46CgWQ7xeOkNI1SU/giphy.gif"
   },
   10: {
-    text: "1, 1, 2, 3, 4, 5, 8, 13, 21 - what number comes next?",
+    text: "1, 1, 2, 3, 4, 5, 8, 13, 21 - which number doesn't belong in this series?",
     choices: [
       "2", "3", "4", "5", "8"
     ],
@@ -126,7 +126,7 @@ const questions = {
     correct: "225"
   },
   14: {
-    text: "Four suspects - A, B, C and D - are interrogated. \nA: C won't cheat unless B cheated.\nB: Maybe A or C cheated.\nC: B didn't cheat, I did.\nD: B cheated.",
+    text: "Four suspects - A, B, C and D - are interrogated. \nA: C won't cheat unless B cheated.\nB: Maybe A or C cheated.\nC: B didn't cheat, I did.\nD: B cheated.\nOnly one person can be the liar... which person is correct?",
     choices: [
       "C lied, B cheated",
       "B lied, B cheated",
