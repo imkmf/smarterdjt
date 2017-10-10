@@ -1,11 +1,11 @@
 import React from 'react';
-
+import trump from './trump.svg'
 import Button from './Button';
 
 const LowerThanAverage = ( { score } ) => (
   <div>
     <p class="f5 f4-m f3-l lh-copy measure mt0">
-      You scored {score}. You placed lower than average.
+      Your IQ is around {score}. You placed lower than average, which is 100.
     </p>
     <div className="w-50">
       <img className="mw-2 pb2" src="/sad_trump.jpg" />
@@ -16,7 +16,7 @@ const LowerThanAverage = ( { score } ) => (
 const Average = ( { score } ) => (
   <div>
     <p class="f5 f4-m f3-l lh-copy measure mt0">
-      You scored {score}. You placed around average!
+      Your IQ is around {score}. You placed around average (100)!
     </p>
     <div className="w-50">
       <img className="mw-2 pb2" src="/confused_trump.jpg" />
@@ -27,7 +27,7 @@ const Average = ( { score } ) => (
 const HigherThanAverage = ( { score } ) => (
   <div>
     <p class="f5 f4-m f3-l lh-copy measure mt0">
-      You scored {score}. You placed higher than average. Nice!
+      Your IQ is around {score}. You placed higher than average (100). Nice!
     </p>
     <div className="w-50">
       <img className="mw-2 pb2" src="/umm_trump.jpg" />
@@ -49,7 +49,8 @@ const Outro = ({ score }) => {
 
   return (
     <article class="ph3 ph5-ns pv2">
-      <h1 class="f4 f2-m f-subheadline-l">Are you smarter than Donald J. Trump?</h1>
+      <img className='w-10 mw-100 grow' src={trump} />
+      <h1 class="f4 f2-m f-subheadline-l">Are you smarter than Donald J. Trump? <span className="white">oh god yes</span></h1>
 
       {comp}
 
