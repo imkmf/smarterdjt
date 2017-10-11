@@ -59,7 +59,7 @@ const Outro = ({ score, tryAgain }) => {
       </p>
 
       <p class="f5 f4-m f3-l lh-copy measure mt0">
-        If <em>you're</em> Donald Trump, and you want to make our jobs easier, take this test, and let us know - email us at <a href="mailto:smrt@areyousmarterthandonaldjtrump.com" class="dim">smrt@areyousmarterthandonaldjtrump.com</a>.
+        If you know Donald Trump's IQ, or <em>you're</em> Donald Trump, and you want to make our jobs easier, take this test, and <a href="https://twitter.com/imkmf">let me know</a>.
       </p>
 
       <p class="f5 f4-m f3-l lh-copy measure mt0">
