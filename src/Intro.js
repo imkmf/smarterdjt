@@ -4,7 +4,7 @@ import Button from './Button';
 
 const Intro = ({ nextQuestion }) => (
   <article class="ph3 ph5-ns pb2 pt4">
-    <img className='w-10 mw-100 grow' src={trump} />
+    <img className='w-50 w-10-l grow' src={trump} />
     <h1 class="f4 f2-m f-subheadline-l">Are you smarter than Donald J. Trump? <span className="white">yes</span></h1>
 
   	<blockquote class="ml0 mt0 pb4 pl4 black-90 bl bw2 b--blue">

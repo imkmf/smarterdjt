@@ -49,7 +49,7 @@ const Outro = ({ score, tryAgain }) => {
 
   return (
     <article class="ph3 ph5-ns pv2">
-      <img className='w-10 mw-100 grow' src={trump} />
+      <img className='w-50 w-10-l grow' src={trump} />
       <h1 class="f4 f2-m f-subheadline-l">Are you smarter than Donald J. Trump? <span className="white">oh god yes</span></h1>
 
       {comp}
